@@ -34,7 +34,7 @@ const Dead = () => {
     <Navigation />
     <h1 align="center">Personajes que estan muertos</h1>
     <h3>Haz click para ver mas personajes muertos</h3>
-    <Button size="large" color="secondary" variant="contained" onClick={(e)=>manejoClick(e)}>Ver Mas</Button>
+    <Button size="small" color="secondary" variant="contained" onClick={(e)=>manejoClick(e)}>Ver Mas</Button>
       
     <Box sx={{ width: 'auto', height: 'auto' }}>
         <ImageList variant="masonry" cols={5} gap={8}>
