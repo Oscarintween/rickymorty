@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #42C2FF;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+li{
+  list-style: none; 
+}
+
+a{
+  color:white;
+  text-decoration: none;
+  padding:3vw;
+  font-weight: bolder;
+}
+ul{
+  display: flex;
+}
+#cardVivos{
+  border:solid green;
+  border-radius: 5px;
+}
+#cardPrincipal{
+  border:solid #9C27B0;
+  border-radius: 5px;
+}
+#cardMuertos{
+  border:solid red;
+  border-radius: 5px;
+}
+#title{
+  color: #9C27B0;
 }
